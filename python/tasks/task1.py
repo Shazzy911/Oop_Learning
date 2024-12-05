@@ -1,10 +1,6 @@
 # Create a Person class that has attributes name and age, and a method introduce() that prints a message introducing the person.
 # Create a subclass Student that inherits from Person. Add an additional attribute student_id and a method study() that prints a message showing the student is studying.
 
-
-
-
-
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -20,10 +16,6 @@ class Student(Person):
     
     def study(self):
         print(f"{self.name} is studying right now... ")
-
-
-
-
 
 
 userName = input("Enter your name : ")
